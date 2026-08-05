@@ -1,0 +1,11 @@
+---
+name: LSystem2D_contextual
+version: 0.1.0-beta
+authors:
+- Isabel Lupiani
+description: 2D L-System with Rewrite String and 2D Turtle combined into a single node, using customized contextual inputs/output.
+license: ''
+url: ''
+keywords:
+- guid:102fdf7b-486c-4751-a705-14ca1a845458
+icon: icon.png

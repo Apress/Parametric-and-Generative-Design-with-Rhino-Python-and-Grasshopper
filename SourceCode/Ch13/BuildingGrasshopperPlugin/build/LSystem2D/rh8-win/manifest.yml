@@ -1,0 +1,11 @@
+---
+name: LSystem2D
+version: 0.1.0-beta
+authors:
+- Isabel Lupiani
+description: 2D L-System plugin that contains two components - one for rewriting strings, and the other for creating 2D non-branching polylines based on the rewritten strings.
+license: ''
+url: ''
+keywords:
+- guid:53ce3dd7-979e-41f8-bbbc-64ad11a1b168
+icon: icon.png

@@ -1,0 +1,106 @@
+<RhinoUI major_ver="5" minor_ver="0" guid="1ca1c2cb-81d8-4068-b00b-4ca7673339a1" localize="False" default_language_id="1033" sidebar_one="00000000-0000-0000-0000-000000000000" dpi_scale="100">
+  <extend_rhino_menus />
+  <menus />
+  <tool_bar_groups>
+    <tool_bar_group guid="d62c98bb-97a2-48ab-ba85-6c0c2c228052" active_tool_bar_group="3b90702c-94bc-4635-8ffb-8f65183e0191" single_file="False" hide_single_tab="False" point_floating="0,0">
+      <text>
+        <locale_1033>CurvedWalls</locale_1033>
+      </text>
+      <tool_bar_group_item guid="3b90702c-94bc-4635-8ffb-8f65183e0191" major_version="1" minor_version="1">
+        <text>
+          <locale_1033>CurvedWalls</locale_1033>
+        </text>
+        <tool_bar_id>519c997b-42e0-49ee-91bc-85c133336eb6</tool_bar_id>
+      </tool_bar_group_item>
+      <dock_bar_info dpi_scale="0" dock_bar="False" docking="False" horz="False" visible="True" floating="True" mru_float_style="0" bar_id="0" mru_width="0" point_pos="0,0" float_point="0,0" dock_location="right" float_size="0,0" />
+    </tool_bar_group>
+  </tool_bar_groups>
+  <tool_bars>
+    <tool_bar guid="519c997b-42e0-49ee-91bc-85c133336eb6" bitmap_id="99bc9328-0ce9-495a-8b63-13992d308314">
+      <text>
+        <locale_1033>CurvedWalls</locale_1033>
+      </text>
+      <tool_bar_item guid="a75487ab-ab89-4ed4-a6f2-84b7d2326ca2">
+        <text>
+          <locale_1033>CWalls</locale_1033>
+        </text>
+        <left_macro_id>9c3c5be8-0f31-4d83-86c2-0089c298971f</left_macro_id>
+      </tool_bar_item>
+    </tool_bar>
+  </tool_bars>
+  <macros>
+    <macro_item guid="9c3c5be8-0f31-4d83-86c2-0089c298971f" bitmap_id="88d9efab-0270-40f6-af8b-62163fd07836">
+      <text>
+        <locale_1033>Macro.CWalls</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>Creates a series of nested curved walls.</locale_1033>
+      </tooltip>
+      <script>! _CWalls</script>
+    </macro_item>
+  </macros>
+  <icons>
+    <icon guid="99bc9328-0ce9-495a-8b63-13992d308314">
+      <light>
+        <svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" fill-dark="#FFF" stroke-dark="none">
+          <svg viewBox="0 0 24 24" version="1.1" id="svg1" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)" sodipodi:docname="icon_walls.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+            <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="4.37" inkscape:cx="57.322654" inkscape:cy="82.951945" inkscape:window-width="1920" inkscape:window-height="1009" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1" />
+            <defs id="defs1" xmlns="http://www.w3.org/2000/svg" />
+            <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" xmlns="http://www.w3.org/2000/svg">
+              <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833333;stroke-dasharray:none" d="M 6.8416292,17.084522 C 5.8094214,17.094177 4.7656041,16.914888 3.7689502,16.52889 -0.90713396,14.717874 -3.0456116,9.2206437 -1.2310893,4.6317218 0.80453051,-0.51635513 6.8802052,-2.8630165 11.942578,-0.82745358 c 3.77115,1.51636691 6.162218,5.01142628 6.645521,8.81944408" transform="translate(3.5721777,4.0565408)" id="path17" />
+              <path id="path15" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833333;stroke-dasharray:none" d="M 3.753814 12.131126 C 2.1378855 10.741183 1.5150451 8.3533745 2.2401794 6.2664472 C 3.3733871 3.0050902 7.1404708 1.4896893 10.307852 2.6438152 C 12.709472 3.5189139 14.279044 5.6286836 14.727178 7.9919911 " transform="translate(3.5721777,4.0565408)" />
+              <path id="path13" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833333;stroke-dasharray:none" d="M 5.7041968 8.2341725 C 5.6949981 8.1207602 5.6972014 8.0085133 5.7114482 7.9011727 C 5.895005 6.5181833 7.411693 5.8183728 8.6731266 6.1150839 C 9.6937294 6.3551474 10.424893 7.0895557 10.790936 7.9919907 " transform="translate(3.5721777,4.0565408)" />
+            </g>
+          </svg>
+        </svg>
+      </light>
+      <dark>
+        <svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" fill-dark="#FFF" stroke-dark="none">
+          <svg viewBox="0 0 24 24" version="1.1" id="svg1" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)" sodipodi:docname="icon_walls_dark.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+            <sodipodi:namedview id="namedview1" pagecolor="#0a0a0a" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="4.37" inkscape:cx="57.322654" inkscape:cy="82.951945" inkscape:window-width="1920" inkscape:window-height="1009" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1" />
+            <defs id="defs1" xmlns="http://www.w3.org/2000/svg" />
+            <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" xmlns="http://www.w3.org/2000/svg">
+              <path style="fill:none;fill-rule:evenodd;stroke:#fbfbfb;stroke-width:1.05833333;stroke-dasharray:none;stroke-opacity:1" d="M 6.8416292,17.084522 C 5.8094214,17.094177 4.7656041,16.914888 3.7689502,16.52889 -0.90713396,14.717874 -3.0456116,9.2206437 -1.2310893,4.6317218 0.80453051,-0.51635513 6.8802052,-2.8630165 11.942578,-0.82745358 c 3.77115,1.51636691 6.162218,5.01142628 6.645521,8.81944408" transform="translate(3.5721777,4.0565408)" id="path17" />
+              <path id="path15" style="fill:none;fill-rule:evenodd;stroke:#fafafa;stroke-width:1.05833333;stroke-dasharray:none;stroke-opacity:1" d="M 3.753814 12.131126 C 2.1378855 10.741183 1.5150451 8.3533745 2.2401794 6.2664472 C 3.3733871 3.0050902 7.1404708 1.4896893 10.307852 2.6438152 C 12.709472 3.5189139 14.279044 5.6286836 14.727178 7.9919911 " transform="translate(3.5721777,4.0565408)" />
+              <path id="path13" style="fill:none;fill-rule:evenodd;stroke:#f9f9f9;stroke-width:1.05833333;stroke-dasharray:none;stroke-opacity:1" d="M 5.7041968 8.2341725 C 5.6949981 8.1207602 5.6972014 8.0085133 5.7114482 7.9011727 C 5.895005 6.5181833 7.411693 5.8183728 8.6731266 6.1150839 C 9.6937294 6.3551474 10.424893 7.0895557 10.790936 7.9919907 " transform="translate(3.5721777,4.0565408)" />
+            </g>
+          </svg>
+        </svg>
+      </dark>
+    </icon>
+    <icon guid="88d9efab-0270-40f6-af8b-62163fd07836">
+      <light>
+        <svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" filename="icon_walls.svg" fill-dark="#FFF" stroke-dark="none">
+          <svg viewBox="0 0 24 24" version="1.1" id="svg1" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)" sodipodi:docname="icon_walls.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+            <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="4.37" inkscape:cx="57.322654" inkscape:cy="82.951945" inkscape:window-width="1920" inkscape:window-height="1009" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1" />
+            <defs id="defs1" xmlns="http://www.w3.org/2000/svg" />
+            <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" xmlns="http://www.w3.org/2000/svg">
+              <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833333;stroke-dasharray:none" d="M 6.8416292,17.084522 C 5.8094214,17.094177 4.7656041,16.914888 3.7689502,16.52889 -0.90713396,14.717874 -3.0456116,9.2206437 -1.2310893,4.6317218 0.80453051,-0.51635513 6.8802052,-2.8630165 11.942578,-0.82745358 c 3.77115,1.51636691 6.162218,5.01142628 6.645521,8.81944408" transform="translate(3.5721777,4.0565408)" id="path17" />
+              <path id="path15" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833333;stroke-dasharray:none" d="M 3.753814 12.131126 C 2.1378855 10.741183 1.5150451 8.3533745 2.2401794 6.2664472 C 3.3733871 3.0050902 7.1404708 1.4896893 10.307852 2.6438152 C 12.709472 3.5189139 14.279044 5.6286836 14.727178 7.9919911 " transform="translate(3.5721777,4.0565408)" />
+              <path id="path13" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833333;stroke-dasharray:none" d="M 5.7041968 8.2341725 C 5.6949981 8.1207602 5.6972014 8.0085133 5.7114482 7.9011727 C 5.895005 6.5181833 7.411693 5.8183728 8.6731266 6.1150839 C 9.6937294 6.3551474 10.424893 7.0895557 10.790936 7.9919907 " transform="translate(3.5721777,4.0565408)" />
+            </g>
+          </svg>
+        </svg>
+      </light>
+      <dark>
+        <svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" filename="icon_walls_dark.svg" fill-dark="#FFF" stroke-dark="none">
+          <svg viewBox="0 0 24 24" version="1.1" id="svg1" inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)" sodipodi:docname="icon_walls_dark.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+            <sodipodi:namedview id="namedview1" pagecolor="#0a0a0a" bordercolor="#666666" borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="4.37" inkscape:cx="57.322654" inkscape:cy="82.951945" inkscape:window-width="1920" inkscape:window-height="1009" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1" />
+            <defs id="defs1" xmlns="http://www.w3.org/2000/svg" />
+            <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" xmlns="http://www.w3.org/2000/svg">
+              <path style="fill:none;fill-rule:evenodd;stroke:#fbfbfb;stroke-width:1.05833333;stroke-dasharray:none;stroke-opacity:1" d="M 6.8416292,17.084522 C 5.8094214,17.094177 4.7656041,16.914888 3.7689502,16.52889 -0.90713396,14.717874 -3.0456116,9.2206437 -1.2310893,4.6317218 0.80453051,-0.51635513 6.8802052,-2.8630165 11.942578,-0.82745358 c 3.77115,1.51636691 6.162218,5.01142628 6.645521,8.81944408" transform="translate(3.5721777,4.0565408)" id="path17" />
+              <path id="path15" style="fill:none;fill-rule:evenodd;stroke:#fafafa;stroke-width:1.05833333;stroke-dasharray:none;stroke-opacity:1" d="M 3.753814 12.131126 C 2.1378855 10.741183 1.5150451 8.3533745 2.2401794 6.2664472 C 3.3733871 3.0050902 7.1404708 1.4896893 10.307852 2.6438152 C 12.709472 3.5189139 14.279044 5.6286836 14.727178 7.9919911 " transform="translate(3.5721777,4.0565408)" />
+              <path id="path13" style="fill:none;fill-rule:evenodd;stroke:#f9f9f9;stroke-width:1.05833333;stroke-dasharray:none;stroke-opacity:1" d="M 5.7041968 8.2341725 C 5.6949981 8.1207602 5.6972014 8.0085133 5.7114482 7.9011727 C 5.895005 6.5181833 7.411693 5.8183728 8.6731266 6.1150839 C 9.6937294 6.3551474 10.424893 7.0895557 10.790936 7.9919907 " transform="translate(3.5721777,4.0565408)" />
+            </g>
+          </svg>
+        </svg>
+      </dark>
+    </icon>
+  </icons>
+  <bitmaps>
+    <small_bitmap item_width="16" item_height="16" />
+    <normal_bitmap item_width="24" item_height="24" />
+    <large_bitmap item_width="32" item_height="32" />
+  </bitmaps>
+  <scripts />
+</RhinoUI>

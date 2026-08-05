@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{102fdf7b-486c-4751-a705-14ca1a845458}") = "LSystem2D_contextual.Components", "LSystem2D_contextual.Components\LSystem2D_contextual.Components.csproj", "{a63b9962-74ec-4995-b76d-f4c660e6a5ea}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{a63b9962-74ec-4995-b76d-f4c660e6a5ea}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a63b9962-74ec-4995-b76d-f4c660e6a5ea}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a63b9962-74ec-4995-b76d-f4c660e6a5ea}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{a63b9962-74ec-4995-b76d-f4c660e6a5ea}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+---
+name: CurvedWalls
+version: 0.1.0-beta
+authors:
+- Isabel Lupiani
+description: Creates a series of nested curved walls.
+license: ''
+url: ''
+keywords:
+- guid:1ca1c2cb-81d8-4068-b00b-4ca7673339a1
+icon: icon.png

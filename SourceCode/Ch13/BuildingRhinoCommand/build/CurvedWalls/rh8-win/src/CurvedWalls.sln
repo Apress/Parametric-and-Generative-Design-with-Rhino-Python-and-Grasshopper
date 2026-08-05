@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1ca1c2cb-81d8-4068-b00b-4ca7673339a1}") = "CurvedWalls", "CurvedWalls\CurvedWalls.csproj", "{989a23e4-2a8f-4a14-91c1-f2c029c25464}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{989a23e4-2a8f-4a14-91c1-f2c029c25464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989a23e4-2a8f-4a14-91c1-f2c029c25464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989a23e4-2a8f-4a14-91c1-f2c029c25464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989a23e4-2a8f-4a14-91c1-f2c029c25464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
