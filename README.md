@@ -1,6 +1,6 @@
 # Apress Source Code
 
-This repository accompanies [*Parametric and Generative Design with Rhino Python and Grasshopper*](https://www.link.springer.com/book/10.1007/%9798868827242%) by Isabel Lupiani (Apress, 2026).
+This repository accompanies [*Parametric and Generative Design with Rhino Python and Grasshopper*](https://link.springer.com/book/10.1007/979-8-8688-2724-2) by Isabel Lupiani (Apress, 2026).
 
 [comment]: #cover
 ![Cover image](9798868827235.jpg)
